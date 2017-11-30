@@ -1,0 +1,35 @@
+{
+  "name": "browser-minimatch",
+  "version": "1.0.0",
+  "description": "minimatch running in browser",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiekw2010/browser-minimatch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiekw2010/browser-minimatch/issues"
+  },
+  "homepage": "https://github.com/xiekw2010/browser-minimatch#readme",
+  "devDependencies": {
+    "rollup": "^0.52.0",
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-json": "^2.3.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "rollup-plugin-uglify": "^2.0.1"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "dependencies": {
+    "minimatch": "^3.0.4"
+  }
+}
